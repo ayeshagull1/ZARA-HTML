@@ -1,72 +1,76 @@
-// active navbar
-let nav = document.querySelector(".navigation-wrap");
-window.onscroll = function () {
-    if(document.documentElement.scrollTop > 20){
-        nav.classList.add("scroll-on");
-    }else{
-        nav.classList.remove("scroll-on");
+// navbar
+
+
+
+
+var swiper = new Swiper(".brandSwiper", {
+
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      with: 320,
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    567: {
+      with: 567,
+      slidesPerView: 3,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    1024: {
+      with: 1024,
+      slidesPerView: 4,
+      spaceBetween: 30
+    },
+    1200: {
+      with: 1200,
+      slidesPerView: 5,
+      spaceBetween: 30
     }
-}
-
-// // counter design
-// document.addEventListener("DOMContentLoaded", () => {
-//     function counter(id, start, end, duration){
-//         let obj = document.getElementById(id),
-//         current = start,
-//         range = end = start,
-//         increment = end > start > 1 = -1
-//         step = math.abs(math.floor(duration / range)),
-//         timer = setInterval(() => {
-//             current += increment;
-//             obj.textContent = current;
-//             if(current == end){
-//                 clearInterval(timer);
-//             }
-//         }, stop);
-//     }
-// }
-
-// counter("count1", 0, 1287, 3000);
-// counter("count1", 100, 5786, 2500);
-// counter("count1", 0, 1440, 3000)
-// counter("count1", 0, 7110, 3000);
-// });
-
-
-document.addEventListener("DOMContentLoaded", () => {
-    function counter(id, start, end, duration) {
-        let obj = document.getElementById(id),
-            current = start,
-            range = end - start,
-            increment = end > start ? 1 : -1,
-            step = Math.abs(Math.floor(duration / range));
-
-        let timer = setInterval(() => {
-            current += increment;
-            obj.textContent = current;
-            if (current === end) {
-                clearInterval(timer);
-            }
-        }, step);
-    }
-
-    counter("count1", 0, 1287, 3000);
-    counter("count2", 100, 5786, 2500); // Assuming you meant to use different IDs for each counter
-    counter("count3", 0, 1440, 3000);  
-    counter("count4", 0, 7110, 3000);
+  }
 });
 
 
 
-function changeBg(){
-    var banner-section = document.getElementById('banner-section')
-    var scrollValue = window.scrollY;
-    if(scrollValue < 150){
-        navbar.classList.remove('bgColor');
-    } else{
-        banner-section.classList.add('bgColor')
-    }
-}
 
-window.addEventListener('scroll', changeBg);
+var swiper = new Swiper(".testimonial-wrapper", {
+  slidesPerView: "auto",
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      with: 320,
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    567: {
+      with: 567,
+      slidesPerView: 1,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    1024: {
+      with: 1024,
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+    1200: {
+      with: 1200,
+      slidesPerView: 2,
+      spaceBetween: 30
+    }
+  }
+});
+
+
+                 
+
+
 

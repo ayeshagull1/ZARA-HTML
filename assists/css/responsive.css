@@ -1,0 +1,225 @@
+
+@media (max-width:1024px) {
+    section {
+        padding: 70px 20px;
+      }
+      footer{
+        padding: 70px 20px;
+      }
+      
+      a{
+        font-size: 15px;
+      }
+      h1{
+        font-size: 65px;
+        line-height: 72px;
+      
+      }
+      h2{
+        font-size: 30px;
+        line-height: 38px;
+        color: #000;
+
+      }
+      h3{
+        font-size: 28px;
+        line-height: 35px;
+      
+      }
+      h4{
+        font-size: 22px;
+        line-height: 28px;
+
+      }
+      h5{
+        font-size: 23px;
+        line-height: 32px;
+        color: #000;
+        font-weight: 700;
+        font-family: "Oswald", sans-serif;
+      }
+      h6{
+        font-size: 16px;
+        line-height: 20px;
+      
+      }
+      p{
+        font-size: 16px;
+        line-height: 22px;
+      
+      }
+      span{
+        font-size: 14px;
+        line-height: 20px;
+      
+      }
+}
+
+@media (max-width: 991px) {
+    section {
+        padding: 70px 20px;
+      }
+      footer{
+        padding: 70px 20px;
+      }
+      
+      a{
+        font-size: 15px;
+      }
+      h1{
+        font-size: 65px;
+        line-height: 72px;
+      
+      }
+
+      h2{
+        font-size: 30px;
+        line-height: 38px;
+        color: #000;
+
+      }
+      h3{
+        font-size: 28px;
+        line-height: 35px;
+      
+      }
+      h4{
+        font-size: 22px;
+        line-height: 28px;
+
+      }
+      h5{
+        font-size: 23px;
+        line-height: 32px;
+        color: #000;
+        font-weight: 700;
+        font-family: "Oswald", sans-serif;
+      }
+      h6{
+        font-size: 16px;
+        line-height: 20px;
+      
+      }
+      p{
+        font-size: 16px;
+        line-height: 22px;
+      
+      }
+      span{
+        font-size: 14px;
+        line-height: 20px;
+      
+      }
+      .navbar-collapse {
+        background: #f85a40;
+      }
+       .header-section .container {
+        --bs-gutter-x: 0;
+      }
+
+      .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+    .navbar{
+      padding: 0;
+    }
+    
+    .header-btn .common-btn{
+      display: block !important;
+
+    }
+    .banner-content h1 span{
+      font-size: 65px;
+      line-height: 72px;
+      font-weight: 700;
+      font-family: "Oswald", sans-serif;
+    }
+    .about-right {
+      padding-left: 0px;
+      padding-top: 40px;
+  }
+  .team-item{
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+    section {
+        padding: 60px 15px;
+      }
+      footer{
+        padding: 60px 15px;
+      }
+      
+      a{
+        font-size: 14px;
+        line-height: 20px;
+      }
+      h1{
+        font-size: 48px;
+        line-height: 54px;
+      
+      }
+      h2{
+        font-size: 28px;
+        line-height: 36px;
+
+      }
+
+      h4{
+        font-size: 22px;
+        line-height: 28px;
+
+      }
+      h5{
+        font-size: 20px;
+        line-height: 28px;
+      }
+      h6{
+        font-size: 16px;
+        line-height: 20px;
+      
+      }
+      p{
+        font-size: 14px;
+        line-height: 18px;
+      
+      }
+      span{
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .common-btn {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 14px 35px;
+    }
+    .banner-section{
+      padding: 110px 15px;
+    }
+    .banner-content h1 span{
+      font-size: 48px;
+      line-height: 54px;
+      font-weight: 700;
+      font-family: "Oswald", sans-serif;
+    }
+}
+@media(max-width:576px) {
+  .update-bar {
+    padding: 0;
+}
+   .update-content h4{
+    display: none !important;
+   }
+   .update-content .common-btn{
+    position: absolute;
+    top: 5px;
+    right: 60px;
+   }
+
+   
+}
+@media (max-width:330px){
+   
+}
+
